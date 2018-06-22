@@ -98,11 +98,12 @@ var IAB = {
                 browserWrap.style.top = '0';
                 browserWrap.style.left = '0';
                 browserWrap.style.boxSizing = 'border-box';
-                browserWrap.style.borderWidth = '40px';
+                browserWrap.style.borderWidth = '0';
                 browserWrap.style.width = '100vw';
                 browserWrap.style.height = '100vh';
                 browserWrap.style.borderStyle = 'solid';
                 browserWrap.style.borderColor = 'rgba(0,0,0,0.25)';
+                browserWrap.style.zIndex = '10000';
 
                 browserWrap.onclick = function () {
                     setTimeout(function () {
